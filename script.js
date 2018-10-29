@@ -3,18 +3,19 @@
 // let firstValue = ""
 // let secondValue = ""
 // let operator = ""
-// document.getElementById("firstValue", "secondValue").innerHTML
-// }
 
-// $(".btn").click(function(event) {
-//     let thingClicked = this.innerHTML
-//     console.log("you clicked: ", thingClicked)
-//      $("#currentValue").html(thingClicked)
-//    })
 
-function currentValue(){
-  
+$(".btn").click(function (event) {
+  let thingClicked = this.innerHTML
+  console.log("you clicked: ", thingClicked)
+  $("#currentValue").html(thingClicked)
+})
+
+
+// create a function that takes a four digit number
+// it must output the number in roman numerals
+
+function opposite(num) {
+return - Math.abs(num)
 }
-
-
-
+opposite(negative)
