@@ -18,9 +18,9 @@
 <form name="Calculator">
     <div class="container">
 
-        <input type="text" name="sum" class="item-header" value="" disabled="true">
+        <input type="text" id = "currentValue" name="sum" class="item-header" value="" disabled="true">
         <input type="button" onClick="Calculator.sum.value = '' " class="btn blue" value="AC">
-        <input type="button" id = "negative" class="btn blue" value="+/-">
+        <input type="button" class="btn blue" value="+/-">
         <input type="button" onClick="Calculator.sum.value += '/' " class="btn blue" value="%">
         <input type="button" onClick="Calculator.sum.value += '+' " class="btn purple" value="+">
 

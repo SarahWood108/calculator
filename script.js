@@ -12,10 +12,3 @@ $(".btn").click(function (event) {
 })
 
 
-// create a function that takes a four digit number
-// it must output the number in roman numerals
-
-function opposite(num) {
-return - Math.abs(num)
-}
-opposite(negative)
