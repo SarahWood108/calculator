@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Calculator</title>
     <meta name="author" content="name">
     <meta name="description" content="description here">
     <meta name="keywords" content="keywords,here">
@@ -20,7 +20,7 @@
 
         <input type="text" id = "currentValue" name="sum" class="item-header" value="" disabled="true">
         <input type="button" onClick="Calculator.sum.value = '' " class="btn blue" value="AC">
-        <input type="button" class="btn blue" value="+/-">
+        <input type="button" onClick="Calculator.sum.value *= -1" class="btn blue" value="+/-">
         <input type="button" onClick="Calculator.sum.value += '/' " class="btn blue" value="%">
         <input type="button" onClick="Calculator.sum.value += '+' " class="btn purple" value="+">
 
