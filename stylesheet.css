@@ -1,6 +1,9 @@
 body {
     font-size: 64px;
-    background-color: purple;
+    background-image: url('purple-and-teal.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .container {
   display: grid;
@@ -25,7 +28,7 @@ body {
   font-size: 50%;
 }
 .btn {
-  background-color: turquoise;
+  background-color: teal;
   border: none;
   color: white;
   padding: 20px;
@@ -36,7 +39,8 @@ body {
 }
 .blue {
   background-color: blue;
-  color: rgb(0, 0, 0)
+  color: white;
+
 }
 .purple {
   background-color: rgb(185, 88, 194);
