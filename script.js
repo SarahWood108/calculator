@@ -1,9 +1,4 @@
-
-// function getCurrenValue(num1, num2){
-// let firstValue = ""
-// let secondValue = ""
-// let operator = ""
-
+// making sure the thing even works
 
 $(".btn").click(function (event) {
   let thingClicked = this.innerHTML
